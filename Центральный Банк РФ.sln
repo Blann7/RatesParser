@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rates Parser", "Центральный Банк РФ\Rates Parser.csproj", "{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8F10B0-D092-45A7-95EE-E89D262D3561}
+	EndGlobalSection
+EndGlobal
