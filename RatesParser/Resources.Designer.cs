@@ -63,9 +63,9 @@ namespace RatesParser {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
-        internal static System.Drawing.Icon ЦБ_РФ {
+        internal static System.Drawing.Icon bank_icon {
             get {
-                object obj = ResourceManager.GetObject("ЦБ_РФ", resourceCulture);
+                object obj = ResourceManager.GetObject("bank icon", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace RatesParser {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ЦБ_РФ_картинка {
+        internal static System.Drawing.Bitmap bank_picture {
             get {
-                object obj = ResourceManager.GetObject("ЦБ_РФ_картинка", resourceCulture);
+                object obj = ResourceManager.GetObject("bank picture", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rates Parser", "Центральный Банк РФ\Rates Parser.csproj", "{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rates Parser", "RatesParser\Rates Parser.csproj", "{F8995D0B-2351-4A74-BBF9-F98BD1684BF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

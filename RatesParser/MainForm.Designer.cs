@@ -88,11 +88,12 @@
             // PictureCentralBank
             // 
             this.PictureCentralBank.BackColor = System.Drawing.Color.Transparent;
-            this.PictureCentralBank.BackgroundImage = global::Центральный_Банк_РФ.Resources.ЦБ_РФ_картинка;
-            this.PictureCentralBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.PictureCentralBank.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PictureCentralBank.Image = global::RatesParser.Resources.bank_picture;
             this.PictureCentralBank.Location = new System.Drawing.Point(27, 145);
             this.PictureCentralBank.Name = "PictureCentralBank";
             this.PictureCentralBank.Size = new System.Drawing.Size(125, 126);
+            this.PictureCentralBank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureCentralBank.TabIndex = 4;
             this.PictureCentralBank.TabStop = false;
             this.PictureCentralBank.Visible = false;
@@ -159,7 +160,7 @@
             this.MinimizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Центральный Банк РФ";
+            this.Text = "Rates Parser";
             this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureCentralBank)).EndInit();
             this.ResumeLayout(false);
